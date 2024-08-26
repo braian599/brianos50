@@ -1,0 +1,21 @@
+let cor;
+let posicaoHorizontal; // x
+let posicaoVertical; // y
+fuction setup () {
+  createCanvas(400, 400);
+  background("white");
+  cor = color(random(0, 255), random(0, 255), random(0, 255));
+  posicaoHorizontal = 200;
+  posicaoVetical = 200;
+}
+function draw() {
+fill(cor);
+  circle(PosicaoHorizonta,PosicaoVertical,50);
+  if(mousex<PosicaoHorizontal) {
+PosicaoHorizontal--;
+  }
+ if(mousex>PosicaoHorizontal) {
+   PosicaoHorizontal
+ }
+if(mouseispressed) {
+  cor(random(0,255),randon(0,255),random(0,255),randon(0,100)) ;
